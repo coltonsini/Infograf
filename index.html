@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    <div id="modal" class="modal_container">
+        <div class="modal">
+            <div class="modal_content">
+                <div class="titulomodal">
+                    <h2>
+                        Instrucciones
+                    </h2>
+                    <h3>
+                        ¡Explora nuestra infografía interactiva!
+                    </h3>
+                </div>
+                <p>
+                    Haz clic en los diferentes elementos de la imagen con
+                    una forma similar a la siguiente, para obtener
+                    información detallada y descubrir datos interesantes de
+                    como funciona tu SAAC 3D
+                </p>
+                <div class="contenedor_letra3">
+                    <h3 class="letra3">A</h3>
+                </div>
+            </div>
+            <button class="cerrar" id="cerrarBoton"> Cerrar </button>
+        </div>
+    </div>
+
+
+    <section class="contenido">
+        <div class="contenedor_saac">
+            <img src="img/saac3d2.webp" alt="" class="imagenSaac">
+            <img src="img/saac_boton.svg" alt="" class="BotonSaac">
+            <a href="" id="elementoA">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">A</h2>
+                </div>
+            </a>
+            <a href="" id="elementoB">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">B</h2>
+                </div>
+            </a>
+            <a href="" id="elementoC">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">C</h2>
+                </div>
+            </a>
+            <a href="" id="elementoD">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">D</h2>
+                </div>
+            </a>
+            <a href="" id="elementoE">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">E</h2>
+                </div>
+            </a>
+            <a href="" id="elementoF">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">F</h2>
+                </div>
+            </a>
+            <a href="" id="elementoG">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">G</h2>
+                </div>
+            </a>
+            <a href="" id="elementoH">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">H</h2>
+                </div>
+            </a>
+            <a href="" id="elementoI">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">I</h2>
+                </div>
+            </a>
+            <a href="" id="elementoJ">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">J</h2>
+                </div>
+            </a>
+            <a href="" id="elementoK">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">K</h2>
+                </div>
+            </a>
+            <a href="" id="elementoL">
+                <div class="contenedor_letra2">
+                    <h2 class="letra2">L</h2>
+                </div>
+            </a>
+        </div>
+        <div class="contenedor_video" id="template">
+            <img src="img/contenedor_carita.svg" alt="" class="carafeliz">
+            <div class="contenedor_letra">
+              <h2 class="letra">{{letra}}</h2>
+            </div>
+            <div class="contenido_info">
+              <span class="texto1">{{texto1}}</span>
+              <div class="texto_info">
+                <h2 class="tituloinfo">{{tituloinfo}}</h2>
+                <p>{{parrafo}}</p>
+              </div>
+              <iframe class="video_info" src="{{video_src}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+          
+    </section>
+</body>
+</html>

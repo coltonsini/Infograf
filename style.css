@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    --green--info-color: #BBDE82;
+    --green2--info-color: #82A231;
+    --white--info-color: #FFFFFF;
+    --black--info-color: #000000;
+}
+  
+html, body {
+    height: 100%;
+}
+  
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+ 
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+  
+input, button, textarea, select {
+    font: inherit;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+  
+#root, #__next {
+    isolation: isolate;
+}
+
+.contenido{
+    background-image: url("img/fondo_info.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.contenedor_saac{
+    width: 90%;
+    height: fit-content;
+    position: relative;
+}
+
+.imagenSaac{
+    width: 100%;
+    height: auto;
+}
+
+.BotonSaac{
+    position: absolute;
+    top: 5%;
+    left: 38%;
+    width: 100px;
+}
+
+.contenedor_letra2{
+    background-image: url("img/numeroSaac.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 2/1;
+    width: 25px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: all .3s ease;
+}
+
+a:hover .contenedor_letra2{
+    transform: scale(1.15);
+}
+
+a:nth-of-type(1) .contenedor_letra2 {
+    top: 37%;
+    left: 1%;
+}
+
+a:nth-of-type(2) .contenedor_letra2 {
+    top: 40%;
+    right: 11%;
+}
+
+a:nth-of-type(3) .contenedor_letra2 {
+    top: 40%;
+    right: 3%;
+}
+
+a:nth-of-type(4) .contenedor_letra2 {
+    top: 52%;
+    left: 5%;
+}
+
+a:nth-of-type(5) .contenedor_letra2 {
+    top: 52%;
+    left: 15%;
+}
+
+a:nth-of-type(6) .contenedor_letra2 {
+    top: 65%;
+    left: 5%;
+}
+
+a:nth-of-type(7) .contenedor_letra2 {
+    top: 65%;
+    left: 15%;
+}
+
+a:nth-of-type(8) .contenedor_letra2 {
+    top: 79%;
+    left: 10%;
+}
+
+a:nth-of-type(9) .contenedor_letra2 {
+    top: 52%;
+    left: 25%;
+}
+
+a:nth-of-type(10) .contenedor_letra2 {
+    top: 88%;
+    left: 35%;
+}
+
+a:nth-of-type(11) .contenedor_letra2 {
+    top: 55%;
+    right: 8%;
+}
+
+a:nth-of-type(12) .contenedor_letra2 {
+    top: 88%;
+    right: 1%;
+}
+
+.letra2{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 17px;
+    color: var(--black--info-color);
+}
+
+.contenedor_video{
+    background-color: var(--green--info-color);
+    width: 90%;
+    max-width: 460px;
+    height: fit-content;
+    padding: 12.5% 3% 3%;
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+
+.contenedor_video::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    background-color: var(--green2--info-color);
+    top: 2%;
+    right: -2%;
+    transform: translateZ(-1px);
+}
+
+.contenedor_letra{
+    background-image: url("img/contenedor_letra.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 88px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -6%;
+    left: -5%;
+}
+
+.letra{
+    color: var(--white--info-color);
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: -1vw;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.carafeliz{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 8%;
+    height: 7%;
+    z-index: 3;
+}
+
+.contenido_info{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.texto1{
+    color: var(--black--info-color);
+    font-style: italic;
+    font-size: 22px;
+    line-height: 26px;
+    width: fit-content;
+    text-align: center;
+}
+
+.texto_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.tituloinfo{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.video_info{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.modal_container{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: #22251c89;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.modal{
+    background-color: #5FBDD3;
+    width: 90%;
+    max-width: 650px;
+    padding: 26px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_content{
+    width: 100%;
+    padding: 3px 26px;
+    gap: 12px;
+    background-color: #AEF0FF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulomodal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulomodal h2{
+    color: #457D8A;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.titulomodal h3{
+    color: #457D8A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.modal_content p{
+    color: #457D8A;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contenedor_letra3{
+    background-image: url("img/numeroSaac.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 2/1;
+    width: 190px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -42px;
+}
+
+.letra3{
+    font-style: italic;
+    font-size: 120px;
+    margin-left: -35px;
+    line-height: 64px;
+    color: var(--black--info-color);
+    transform: rotate(-4deg);
+}
+
+.cerrar{
+    padding: 8px 16px;
+    font-size: 32px;
+    line-height: 34px;
+    max-width: min-content;
+    color: var(--white--info-color);
+    font-weight: 700;
+    background-color: #D64146;
+    border: none;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 0px #A43136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: all .3s ease;
+}
+
+.cerrar:hover{
+    transform: scale(1.05);
+}
+
+.cerrar::before{
+    background-image: url("img/closebutton.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    content:"";
+}
+
+@media screen and (min-width: 405px){
+    .letra{
+        font-size: 5rem;
+        margin-left: 0;
+    }
+
+    .contenedor_letra{
+        width: 98px;
+        height: 80px;
+    }
+
+    .contenedor_video{
+        padding: 5.5% 2% 3%;
+    }
+    
+    .contenido{
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .letra{
+        font-size: 5rem;
+        margin-left: 0;
+    }
+
+    .contenedor_letra{
+        width: 128px;
+        height: 110px;
+    }
+
+    .contenedor_video{
+        padding: 5.5% 2% 3%;
+    }
+    
+    .contenido{
+        height: 100vh;
+    }
+
+    .BotonSaac{
+        width: 140px;
+    }
+}
+
+@media screen and (min-width: 704px){
+    .contenido{
+        height: fit-content;
+    }
+
+    .BotonSaac{
+        width: 34%;
+    }
+
+    .titulomodal h2{
+        color: #457D8A;
+        font-weight: 700;
+        font-size: 46px;
+        font-style: italic;
+    }
+    
+    .titulomodal h3{
+        color: #457D8A;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 980px){
+    .letra{
+        font-size: 5rem;
+        margin-left: 0vw;
+    }
+
+    .contenedor_video{
+        padding: 2.5% 2% 3%;
+    }
+
+    .contenedor_letra{
+        width: 128px;
+        height: 110px;
+        top: -6%;
+        left: -5%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
+    .letra{
+        font-size: 6rem;
+        line-height: 6.2rem;
+        margin-left: 0vw;
+        margin-top: unset;
+    }
+
+    .contenedor_letra{
+        width: 128px;
+        height: 110px;
+        top: -6%;
+        left: -5%;
+    }
+
+    .contenido{
+        height: 100vh;
+        flex-direction: row;
+        padding: 5% 5%;
+        background-position: top center;
+        gap: 25px;
+    }
+
+    .contenedor_letra2{
+        width: 45px;
+        height: 60px;
+    }
+
+    .letra2{
+        font-style: italic;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        color: var(--black--info-color);
+    }
+
+    .contenedor_video{
+        padding: 3.5% 2% 3%;
+    }
+
+    .texto1{
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+    
+    .texto_info{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .contenido_info{
+        gap: 12px;
+    }
+    
+    .tituloinfo{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 2000px){
+
+    .contenido{
+        height: fit-content;
+        background-position: top top;
+    }
+}
