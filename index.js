@@ -7,7 +7,7 @@ function cambio() {
     tituloinfo: "Visualizador de oraciones",
     parrafo:
       "Funciona para conformar oraciones a partir de las múltiples opciones de pictogramas",
-    video_src: "https://www.youtube.com/embed/nleJVC3XPeU",
+    video_src: "https://www.youtube.com/embed/hvThJ7P4mIs",
   };
 
   const dataB = {
@@ -15,7 +15,7 @@ function cambio() {
     texto1: "¿Comó correguir oraciones?",
     tituloinfo: "Botón de borrar",
     parrafo: "Funciona para borrar por completo o correguir oraciones.",
-    video_src: "https://www.youtube.com/embed/ObAcg1k25YI",
+    video_src: "https://www.youtube.com/embed/tJWh1prT6no",
   };
 
   const dataC = {
@@ -24,7 +24,7 @@ function cambio() {
     tituloinfo: "Botón de Guardar",
     parrafo:
       "Funciona para guardar oraciones frecuentes y después visualizarlas sin necesidad de volverlas a escribir.",
-    video_src: "https://www.youtube.com/embed/nleJVC3XPeU",
+    video_src: "https://www.youtube.com/embed/Rx-s9gRjHsM",
   };
 
   const dataD = {
@@ -33,7 +33,7 @@ function cambio() {
     tituloinfo: "Botón de Ajustes",
     parrafo:
       "Funciona para acceder a las métricas de seguimiento (pictogramas/semana y oraciones guardadas/semana) y activar o desactivar la retroalimentación auditiva.",
-    video_src: "https://www.youtube.com/embed/ObAcg1k25YI",
+    video_src: "https://www.youtube.com/embed/9hrS21Bt2S8",
   };
 
   const dataE = {
@@ -42,7 +42,7 @@ function cambio() {
     tituloinfo: "Botón de Oraciones",
     parrafo:
       "Funciona para acceder a todas las oraciones guardadas por el usuario, con el fin de que no necesite volverlas a escribir y que pueda visualizarlas con un clic.",
-    video_src: "https://www.youtube.com/embed/nleJVC3XPeU",
+    video_src: "https://www.youtube.com/embed/ZtMdFUeuZjc",
   };
 
   const dataF = {
@@ -51,7 +51,7 @@ function cambio() {
     tituloinfo: "Botón de Personaje",
     parrafo:
       "Funciona para acceder a la ventana de personalización con el fin de que pueda caracterizar a su preferencia un avatar con el que interactuará en la aplicación.",
-    video_src: "https://www.youtube.com/embed/nleJVC3XPeU",
+    video_src: "https://www.youtube.com/embed/WIVXlzUXQPc",
   };
 
   const dataG = {
@@ -60,7 +60,7 @@ function cambio() {
     tituloinfo: "Botón de tableros",
     parrafo:
       "Funciona para acceder a los tableros que hacen referencia a las categorías semánticas compuestas por pictogramas y que tiene la finalidad de componer<br>oraciones.",
-    video_src: "https://www.youtube.com/embed/ObAcg1k25YI",
+    video_src: "https://www.youtube.com/embed/YIrHgKDVZrk",
   };
 
   const dataH = {
@@ -69,7 +69,7 @@ function cambio() {
     tituloinfo: "Deslizador de tableros",
     parrafo:
       "Funciona para tener un acceso rápido a los tableros y navegar por ellos sin necesidad de utilizar una ventana alterna, es una alternativa para accecer y visualizar los tableros rapidamente.",
-    video_src: "https://www.youtube.com/embed/nleJVC3XPeU",
+    video_src: "https://www.youtube.com/embed/sEVtDjMYg6k",
   };
 
   const dataI = {
@@ -78,7 +78,7 @@ function cambio() {
     tituloinfo: "Pictogramas",
     parrafo:
       "Permite visualizar los pictogramas de una misma categoria semantica, con un clic se muestra una previsualización animada del pictograma y con otro clic adicional coloca este pictograma en la barra superior para conformar oraciones.",
-    video_src: "https://www.youtube.com/embed/ObAcg1k25YI",
+    video_src: "https://www.youtube.com/embed/ScvVwR3eQ80",
   };
 
   const dataJ = {
@@ -87,7 +87,7 @@ function cambio() {
     tituloinfo: "Botónes de Navegación",
     parrafo:
       "Funciona para navegar entre todas las opciones de pictogramas de cada categría semantíca.",
-    video_src: "https://www.youtube.com/embed/nleJVC3XPeU",
+    video_src: "https://www.youtube.com/embed/5VqgOPZMhHg",
   };
 
   const dataK = {
@@ -96,7 +96,7 @@ function cambio() {
     tituloinfo: "Botónes de Interpretar",
     parrafo:
       "Funciona para activar las retroalimentaciones visuales animadas porterior a la conformación de oraciones.",
-    video_src: "https://www.youtube.com/embed/ObAcg1k25YI",
+    video_src: "https://www.youtube.com/embed/idQkZEqw8ZM",
   };
 
   const dataL = {
@@ -105,7 +105,7 @@ function cambio() {
     tituloinfo: "Visualizador 3D",
     parrafo:
       "Funciona para visualizar las animaciones 3D posterior a activar el botón de interpretar.",
-    video_src: "https://www.youtube.com/embed/nleJVC3XPeU",
+    video_src: "https://www.youtube.com/embed/6KFgf-x7VH8",
   };
 
 
